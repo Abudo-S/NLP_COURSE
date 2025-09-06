@@ -99,7 +99,7 @@ for epoch in range(EPOCHS):
 
 # Save model
 
-save_path = "INSERT YOUR PATH HERE"
+save_path = "/bert_text_classifier"
 
 model.save_pretrained(save_path)
 tokenizer.save_pretrained(save_path)
